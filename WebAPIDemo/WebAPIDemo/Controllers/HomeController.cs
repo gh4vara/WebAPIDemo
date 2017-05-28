@@ -21,5 +21,13 @@ namespace WebAPIDemo.Controllers
 
             return View();
         }
+
+        //Code Added by prasad 5/28/2017
+        public ActionResult TestDemoReport()
+        {
+            ViewBag.Title = "My Demo Report";
+
+            return View();
+        }
     }
 }
